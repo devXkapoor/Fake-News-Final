@@ -21,7 +21,7 @@ except Exception as e:
     print("Warning: could not create index on predictions_col:", e)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(BASE_DIR, 'model')
+MODEL_DIR = os.path.join(BASE_DIR, 'models')
 
 # Map short name -> filename
 MODEL_FILES = {
